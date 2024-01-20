@@ -1,0 +1,101 @@
+section{
+margin: 60px 0px;
+}
+
+/* aside Section */
+aside{
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+aside ul{
+list-style: none;
+margin-top: 50px;
+padding: 50px;
+}
+
+aside a{
+text-decoration: none;
+font-size: larger;
+color: white;
+font-weight: bold;
+letter-spacing: 2px;
+}
+aside li{
+margin-bottom: 20px;
+cursor: pointer
+;}
+
+aside li:hover a{
+    color: brown;
+}
+#closeBtn:hover{
+    color: brown!important;
+    cursor: pointer;
+}
+#openBtn{
+    cursor: pointer;
+}
+/* END aside Section */
+
+/* Header Section */
+header{
+    height: 90vh;
+    background-image: url(../img/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+/* END Header Section */
+
+/* singers section */
+.accordion h1{
+    background-color:rgba(214, 46, 51 , 0.6);
+    margin: 0;
+    cursor: pointer;
+}
+
+.accordion p{
+    background-color:#ccc;
+    margin: 0;
+}
+/* End singers section */
+
+/* counter section */
+#counterSection{
+    background-image: url(../img/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#counterSection .inner{
+    border: solid 2px white;
+    padding: 50px 0;
+    font-weight: bold;
+    color: white
+}
+/* end counter section */
+
+/* contact us section */
+#contactSection .col-md-6 p{
+    margin-bottom: 60px;
+}
+
+#iconsInContact div{
+    border: solid 1px black;
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#iconsInContact div:hover{
+    background-color: #D62E33;
+    color: white;
+}
+/* end contact us section */
+
+
